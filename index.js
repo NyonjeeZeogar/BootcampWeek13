@@ -6,7 +6,7 @@ const apiRouter = require('./routes/apiRoutes');
 const db = require('./models');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());                 // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({             // to support URL-encoded bodies
