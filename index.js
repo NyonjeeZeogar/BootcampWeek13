@@ -24,7 +24,6 @@ app.use(express.static('public'));
 app.use('/api', apiRouter);
 app.get('/', async (req, res) => {
     const burgers = await db.Burger.findAll();
-    console.log(burgers);
 
     res.render('home', {burgers});
 });
