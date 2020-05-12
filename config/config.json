@@ -8,8 +8,8 @@
   },
   "test": {
     "username": "root",
-    "password": "Zeo@7324",
-    "database": "burgers_db",
+    "password": "null",
+    "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
